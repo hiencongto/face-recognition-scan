@@ -5,21 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, time
 
 # ==================== CẤU HÌNH ====================
-DB_CONFIG = {
-    'server': '192.168.132.20',
-    'database': 'security_db',
-    'username': 'sa',
-    'password': 'www.111.com'
-}
 
-SMTP_CONFIG = {
-    'server': 'smtp.gmail.com',
-    'port': 587,
-    'sender': 'hienahihi111@gmail.com',
-    'password': 'sysc kwvu dxxr dmxe'
-}
-
-RECEIVER = 'hienahihi111@gmail.com'
 
 # Danh sách PIN cần lấy
 PIN_LIST = ['83294', '81474', '82367', '82630', '80068']
